@@ -81,7 +81,8 @@ for i in range(len(epoch_sizes)):
         model.fit(data_x, data_y, epochs=epoch_sizes[i], batch_size=batch_sizes[j], validation_split=0.2, verbose=2)
 
         # Prediction
-        # y = model.predict(data_x)
+        ### y = model.predict(data_x,data_y)
+        # 있었는데 없었습니다.
 
-        # Save model (layernum_dropoutnum_epoch_batchsize)
+        # Save model (layernum_dropoutnum_epoch_batchsize) 
         model.save(model_file_name)
