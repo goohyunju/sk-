@@ -82,7 +82,6 @@ for i in range(len(epoch_sizes)):
 
         # Prediction
         ### y = model.predict(data_x,data_y)
-        # 있었는데 없었습니다.
 
         # Save model (layernum_dropoutnum_epoch_batchsize) 
         model.save(model_file_name)
